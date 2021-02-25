@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- mybatis核心配置 -->
+<configuration>
+
+
+  <!-- setting : 全局设置 : 开二级缓存,延迟加载,驼峰命名转换-->
+<!--  <settings>-->
+<!--    <setting name="mapUnderscoreToCamelCase" value="true"/>-->
+<!--  </settings>-->
+
+  <!-- Aliases 别名 实体类型使用 -->
+  <typeAliases>
+    <!--    <typeAlias type="com.sh.pojo.Person" alias="person"></typeAlias>-->
+    <package name="com.sh.pojo"/>
+  </typeAliases>
+
+</configuration>
