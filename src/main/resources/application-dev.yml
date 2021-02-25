@@ -1,6 +1,6 @@
 # web * 3   N * service
 server:
-  port: 8055
+  port: 8880
 logging:
   level:
     com:
